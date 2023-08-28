@@ -331,8 +331,8 @@ footer .newsletter{
 
 /* debut responsive */
 @media screen and (max-width : 1200px) {
-    .description{
-        font-size: 1.5vw;
+    .game .description {
+        font-size: 3vw;
     }
     .actu_tournament , .actu_gaming h1{
         font-size: 5vw;
@@ -348,11 +348,11 @@ footer .newsletter{
     }
     .smash_bros .info_smash h4 , .street_fighter .info_fighter h4 , .valorant .info_valorant h4 , .lol .info_lol h4{
         text-align: center;
-        font-size: 4vw;
+        font-size: 5vw;
         margin-bottom: 2%;
     }
     .smash_bros .info_smash p , .street_fighter .info_fighter p , .valorant .info_valorant p , .lol  .info_lol p{
-        font-size: 3vw;
+        font-size: 4vw;
         padding: 1%;
     }
 }

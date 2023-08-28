@@ -371,12 +371,12 @@ footer .newsletter{
         font-size: 3vw;
     }
 }
-@media screen and (max-width : 1110) {
+@media screen and (max-width : 1110px) {
     .mentor img{
         width: 20vw;
     }
     .mentor p{
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
 }
 @media screen and (max-width : 800px) {
@@ -387,16 +387,16 @@ footer .newsletter{
         width: 100%;
     }
     .streaming p{
-        font-size: 3vw;
+        font-size: 4vw;
     }
     .streamer .info_streaming img{
         height: 15vh;
     }
     .streamer .info_streaming p{
-        font-size: 2.3vw;
+        font-size: 4vw;
     }
     .info_streamer .streamer p{
-        font-size: 2.3vw;
+        font-size: 3vw;
     }
 }
 @media screen and (max-width : 600px) {
@@ -407,7 +407,7 @@ footer .newsletter{
         gap: 15px;
     }
     .advantage p{
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
     .values{
         margin-left: 1%;

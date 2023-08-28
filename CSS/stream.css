@@ -307,7 +307,7 @@ footer .newsletter{
     }
     .other_live .other .description_other p ,
     .streaming .live .description_live p{
-        font-size: 3vw;
+        font-size: 4vw;
     }
     .categories h2{
         text-align: center;
@@ -318,7 +318,7 @@ footer .newsletter{
         font-size: 2vw;
     }
     .stream .descrip p{
-        font-size: 3vw;
+        font-size: 4vw;
     }
 }
 @media screen and (max-width : 800px) {
