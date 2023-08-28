@@ -368,7 +368,7 @@ footer .newsletter{
         margin-left: 2%;
     }
     .value p{
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 }
 @media screen and (max-width : 1110px) {
@@ -401,13 +401,13 @@ footer .newsletter{
 }
 @media screen and (max-width : 600px) {
     .join h1{
-        font-size: 4vw;
+        font-size: 4.5vw;
     }
     .advantages{
         gap: 15px;
     }
     .advantage p{
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
     .values{
         margin-left: 1%;
@@ -428,22 +428,23 @@ footer .newsletter{
         width: 80vw;
     }
     .mentor .info_mentor p{
-        margin-top: 15%;
+        margin-top: 5%;
+        margin-bottom: 2%;
     }
     .bonus h1{
-        font-size: 4vw;
+        font-size: 5vw;
     }
     .bonus .info_bonus p{
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
     
 }
 @media screen and (max-width : 1000px) {
     .mentor .tuteur .info_mentor p{
-        font-size: 2.2vw;
+        font-size: 2.6vw;
     }
     .end h2{
-        font-size: 3vw;
+        font-size: 3.1vw;
     }
 }
 /*fin responnsive*/
@@ -489,6 +490,7 @@ footer .newsletter{
     }
     nav ul li a{
         font-size: 4vw;
+        border-bottom: 2px solid orangered;
     }
     a:hover , a.active{
         background: none;
