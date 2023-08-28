@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto';
 }
 a{
     text-decoration: none;
@@ -245,6 +248,7 @@ a.active , a:hover{
     color: white;
     margin-top: 15%;
     margin-bottom: 5%;
+    
 }
 
 
@@ -387,16 +391,16 @@ footer .newsletter{
         width: 100%;
     }
     .streaming p{
-        font-size: 4vw;
+        font-size: 3.5vw;
     }
     .streamer .info_streaming img{
         height: 15vh;
     }
     .streamer .info_streaming p{
-        font-size: 4vw;
+        font-size: 3.5vw;
     }
     .info_streamer .streamer p{
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
 }
 @media screen and (max-width : 600px) {
@@ -441,7 +445,7 @@ footer .newsletter{
 }
 @media screen and (max-width : 1000px) {
     .mentor .tuteur .info_mentor p{
-        font-size: 2.6vw;
+        font-size: 2.4vw;
     }
     .end h2{
         font-size: 3.1vw;
