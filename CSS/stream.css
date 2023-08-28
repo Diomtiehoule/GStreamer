@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+body{
+    background-color: #272727;
+}
+
+nav{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+}
+label.logo , label.logo_responsive{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    margin : 0 5px;
+}
+label.logo_responsive{
+    display: none;
+}
+label.logo span , label.logo_responsive span{
+    color: orangered;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active , a:hover{
+    background-color: orangered;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.follow_live{
+    color: orangered;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+
+ /* streaming debut */
+ .streaming{
+    width: 100%;
+    display: flex;
+ }
+ .streaming .live{
+    width: 70%;
+    padding: 1%;
+    margin-left: 4%;
+    padding-right: 5%;
+    border-right: 2px solid white;
+ }
+ .streaming .live .description_live p{
+    font-size: 1.3rem;
+    color: white;
+ }
+ .streaming .border{
+    width: 0;
+    height: 120vh;
+ }
+ .streaming .other_live{
+    width: 30%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+    scroll-behavior: smooth;
+    scrollbar-width: 20%;
+    
+ }
+ .streaming .other_live p{
+    color: white;
+    font-size: 1.1rem;
+ }
+ .streaming .other_live .other{
+    margin-bottom: 5%;
+ }
+/* fin streaming partie */
+
+/* debut same_live */
+.same_live{
+    margin-top: 15%;
+}
+.same_live p{
+    color: white;
+    font-size: 1.3rem;
+}
+.same_live h1{
+    color: orangered;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+.same_live .list_stream{
+    width: 90%;
+    margin: 0 auto;
+    padding: 2%;
+    background-color: rgb(255, 255, 255 , 19%);
+    margin-bottom: 5%;
+}
+.same_live .list_stream .stream{
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+/* fin same_live */
+
+
+/* debut categories */
+.categories{
+    width: 80%;
+    margin: 0 auto;
+}
+.categories h1{
+    color: orangered;
+}
+.categories .list_categories{
+    background-color: rgb(255, 255, 255 , 19%);
+    padding: 1%;
+    margin-bottom: 10%;
+}
+.racing h2{
+    margin-left: 12%;
+    margin-bottom: 2%;
+    color: orangered;
+}
+.racing .games{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    gap: 20px;
+}
+.games img{
+    width: 95%;
+    height: 25vh;
+}
+.games p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+.game{
+    cursor: pointer;
+}
+/* fin categories */
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer debut */
+footer{
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    background-color: black;
+}
+footer .newsletter{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.newsletter p{
+    color: orangered;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 1%;
+}
+.newsletter .msg_space{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.newsletter .msg_space input{
+    width: 20vw;
+    height: 6vh;
+}
+.newsletter .msg_space button{
+    height: 6vh;
+    width: 6vw;
+    background-color: orangered;
+    color: white;
+}
+.border{
+    border: 1px solid orangered;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 3%   ;
+}
+
+.footer_principale{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+}
+.footer_principale h1{
+    color: white;
+    font-size: 3.5rem;
+}
+.footer_principale h1 span{
+    color: orangered;
+}
+.about{
+    display: flex;
+    margin-right: 20%;
+}
+.about .border1{
+    border-left: 2px solid white;
+    height: 22vh;
+    margin-right: 5%;
+}
+.about .abouts p{
+    font-size: 1.4rem;
+    color: white;
+}
+
+.follow{
+    margin-right: 5%;
+
+}
+.follow h3{
+    font-size: 1.5rem;
+    color: white;
+}
+.follow .icons{
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+.follow .icons i{
+    font-size: 2.2rem;
+}
+.border3{
+    border: 0.5px solid rgba(220, 220, 220, 0.249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer_end{
+    display: flex;
+    border-top: 1px solid rgba(220, 220, 220, 0.249);
+    justify-content: space-between;
+    padding-top: 1%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.footer_end p{
+    font-size: 1.2rem;
+    color: white;
+}
+/*  footer fin */
+
+
+/*  debut responsive */
+@media screen and (max-width : 1200px) {
+    h1{
+        font-size: 5vw;
+    }
+    .other_live .other .description_other p ,
+    .streaming .live .description_live p{
+        font-size: 3vw;
+    }
+    .categories h2{
+        text-align: center;
+        margin-left: 0;
+        font-size: 4vw;
+    }
+    .categories p{
+        font-size: 2vw;
+    }
+    .stream .descrip p{
+        font-size: 3vw;
+    }
+}
+@media screen and (max-width : 800px) {
+    .streaming{
+        display: inline;
+    }
+    .streaming .live{
+        width: 95%;
+        padding-bottom: 4%;
+        border-right: none;
+        margin-bottom: 15%;
+        padding-right: 2%;
+        border-bottom: 1px solid white;
+    }
+    
+    .streaming .other_live{
+        display: inline;
+        gap: 5px;
+        width: 100%;
+        margin-right: 0%;
+    }
+    .other{
+        width: 61%;
+        margin-left: 5%;
+    }
+    .other_live .other video{
+        width: 60vw;
+    }
+    .same_live h1{
+        margin-left: 5%;
+    }
+}
+@media screen and (max-width : 500px) {
+    .racing .games{
+        display: inline;
+        margin: 0 auto;
+    }
+    .categories .list_categories .racing{
+        margin-bottom: 5%;
+    }
+    .game{
+        margin-bottom: 4%;
+        text-align: center;
+    }
+    .game .name_game p{
+        font-size: .8rem;
+    }
+    .games img{
+        width: 30%;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+/* fin responnsive */
+
+
+/* nav bar responsive */
+@media screen and (max-width : 952px) {
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width : 858px) {
+    label.logo{
+        padding: 0 5px;
+        display: none;
+    }
+    label.logo_responsive{
+        padding: 0 5px;
+        display: block;
+    }
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #272727;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 4vw;
+    }
+    a:hover , a.active{
+        background: none;
+        color: orangered;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+/* fin nav bar responsive /*
+
+/* parti responsive footer*/
+@media screen and (max-width : 1000px) {
+    .newsletter .msg_space input{
+        width: 60%;
+        height: 3vh;
+    }
+    .newsletter .msg_space button{
+        width: auto;
+        height: 3vh;
+    }
+    .footer_principale{
+        display: inline;
+        text-align: center;
+    }
+    .footer_principale .logo h1{
+        font-size: 5vw;
+    }
+    .footer_principale .about .border1{
+        display: none;
+    }
+    .footer_principale .about{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .footer_principale .abouts{
+        margin-top: 5%;
+        margin-bottom: 7%;
+    }
+    .about .abouts p{
+        margin-top: 3%;
+    }
+    .follow{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1%;
+    }
+    .footer_principale .about .abouts p{
+        font-size: 3vw;
+    }
+    footer .footer_principale .follow .icons i{
+        font-size: 4vw;
+    }
+    .copyright p , .location p{
+        font-size: 2vw;
+    }
+}
+/* fin footer responsive*/

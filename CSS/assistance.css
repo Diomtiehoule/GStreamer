@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+body{
+    background-color: #272727;
+}
+
+nav{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+}
+label.logo , label.logo_responsive{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    margin : 0 5px;
+}
+label.logo_responsive{
+    display: none;
+}
+label.logo span , label.logo_responsive span{
+    color: orangered;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active , a:hover{
+    background-color: orangered;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+h1{
+    color: orangered;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+.welcome{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+/* debut assistance */
+.assistances{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding: 1%;
+    gap: 20px;
+}
+.assist{
+    width: 33%;
+    height: 38vh;
+    background-color: rgb(255, 255, 255 , 19%);
+    border-radius: 5px;
+    padding: 1%;
+}
+.assist h2{
+    color: white;
+}
+.assist p{
+    color: #d9d9d9;
+    font-size: 1.2rem;
+    margin-top: 2%;
+}
+.login{
+    margin-bottom: 5%;
+}
+.login p{
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+}
+/* fin assistance */
+
+
+
+/* footer debut */
+footer{
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    background-color: black;
+}
+footer .newsletter{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.newsletter p{
+    color: orangered;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 1%;
+}
+.newsletter .msg_space{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.newsletter .msg_space input{
+    width: 20vw;
+    height: 6vh;
+}
+.newsletter .msg_space button{
+    height: 6vh;
+    width: 6vw;
+    background-color: orangered;
+    color: white;
+}
+.border{
+    border: 1px solid orangered;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 3%   ;
+}
+
+.footer_principale{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+}
+.footer_principale h1{
+    color: white;
+    font-size: 3.5rem;
+}
+.footer_principale h1 span{
+    color: orangered;
+}
+.about{
+    display: flex;
+    margin-right: 20%;
+}
+.about .border1{
+    border-left: 2px solid white;
+    height: 22vh;
+    margin-right: 5%;
+}
+.about .abouts p{
+    font-size: 1.4rem;
+    color: white;
+}
+
+.follow{
+    margin-right: 5%;
+
+}
+.follow h3{
+    font-size: 1.5rem;
+    color: white;
+}
+.follow .icons{
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+.follow .icons i{
+    font-size: 2.2rem;
+}
+.border3{
+    border: 0.5px solid rgba(220, 220, 220, 0.249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer_end{
+    display: flex;
+    border-top: 1px solid rgba(220, 220, 220, 0.249);
+    justify-content: space-between;
+    padding-top: 1%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.footer_end p{
+    font-size: 1.2rem;
+    color: white;
+}
+/*  footer fin */
+
+
+
+/*  debut responsive */
+@media screen and (min-width : 320px) {
+    header .logo .logo_responsive{
+        display: block;
+    }
+    header .logo h1{
+        color: white;
+        display: none;
+    }
+    header .logo span{
+        color: orangered;
+    }
+    .welcome{
+        font-size: 5vw;
+    }
+    .assist {
+        height: auto;
+    }
+    .assist h2{
+        font-size: 4vw;
+    }
+    .assist p , .login p{
+        font-size: 2.5vw;
+        margin-top: 2%;
+    }
+    .newsletter .msg_space input{
+        width: 5vw;
+        height: 3vh;
+    }
+    .newsletter .msg_space button{
+        height: 3vh;
+    }
+}
+/* fin responsive */
+
+/* nav bar responsive */
+@media screen and (max-width : 952px) {
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width : 858px) {
+    label.logo{
+        padding: 0 5px;
+        display: none;
+    }
+    label.logo_responsive{
+        padding: 0 5px;
+        display: block;
+    }
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #272727;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 4vw;
+    }
+    a:hover , a.active{
+        background: none;
+        color: orangered;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+/* fin nav bar responsive /*
+/* parti responsive footer*/
+@media screen and (max-width : 1000px) {
+    .newsletter .msg_space input{
+        width: 60%;
+    }
+    .newsletter .msg_space button{
+        width: auto;
+    }
+    .footer_principale{
+        display: inline;
+        text-align: center;
+    }
+    .footer_principale .logo h1{
+        font-size: 5vw;
+    }
+    .footer_principale .about .border1{
+        display: none;
+    }
+    .footer_principale .about{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .footer_principale .abouts{
+        margin-top: 5%;
+        margin-bottom: 7%;
+    }
+    .about .abouts p{
+        margin-top: 3%;
+    }
+    .follow{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1%;
+    }
+    .footer_principale .about .abouts p{
+        font-size: 3vw;
+    }
+    footer .footer_principale .follow .icons i{
+        font-size: 4vw;
+    }
+    .copyright p , .location p{
+        font-size: 2vw;
+    }
+}
+/* fin footer responsive*/
